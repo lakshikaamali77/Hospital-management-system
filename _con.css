@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	font-family: 'Salsa', cursive;
+
+
+}
+.footer{
+	width: 100%;
+	height: auto;
+	background: url(./baner.jpg);
+	background-size: cover;
+}
+.footer-inner{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding: 24px;
+}
+.map iframe{
+	width: 100%;
+	height: 340px;
+	border: none;
+}
+.contact-text{
+	width: 100%;
+	height: auto;
+}
+.contact-text h1{
+	font-size: 36px;
+	font-weight: 600;
+	color: blue;
+	margin: 0;
+	padding-bottom: 20px;
+}
+.contact-text h2{
+	font-size: 20px;
+	font-weight:500 ;
+	color: red;
+	margin: 0;
+	padding-top: 25px;
+}
+.contact-text h3 {
+	color: green;
+}
+.contact-text p{
+	font-size: 14px;
+	color: purple;
+	margin: 0;
+	padding-top: 5px;
+	padding-left: 24px;
+	font-weight: 100;
+}
+.footer-main{
+	width: 100%;
+	height: auto;
+	background: burlywood;
+	padding: 30px 0;
+
+}
+.form {
+	width: 100%;
+	height: auto;
+	margin:auto ;
+
+}
+.form-submit {
+	width: 51px;
+	height: 45px;
+	background-color: seagreen;
+	border: none;
+	margin-top: -9px;
+}
+.footer-bottom {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: black;
+} 
+.footer-bottom p{
+	font-size: 14px;
+	color: hotpink;
+	font-weight: 100;
+	margin: 0;
+	padding: 8.5px 0;
+	text-decoration: none;
+
+}
+.footer-bottom p span {
+	font-size: 14px;
+}
+.footer-bottom p a{
+	color: orange;
+	text-decoration: none;
+}
+ @media only screen and (max-width: 360px) and (max-width: 479px) 
+{
+	.map iframe{
+		height: 150px;
+	} 
+	.contact-text{
+		padding: 15px;
+	}
+	.contact-text h1{
+		font-size: 24px;
+		padding-bottom: 10px;
+	}
+
+.contact-text h2 {
+	font-size: 18px;
+	padding-top: 10px;
+ }
+ .contact-text p {
+ 	font-size: 12px;
+
+ }
+}
